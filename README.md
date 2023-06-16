@@ -4,6 +4,7 @@
 
 Ce projet avait pour but de nous apprendre à faire une recherche, login et register front et back. 
 
+Durée : 2 semaines
 Technologie utilisée : PHP, Javascript (+ jQuery), HTML, CSS (+ SASS)
 
 
@@ -11,6 +12,7 @@ Technologie utilisée : PHP, Javascript (+ jQuery), HTML, CSS (+ SASS)
 
 This project's goal was to teach us how to create a search system, a login and a register front and back.
 
+Duration : 2 weeks
 Technologies used : PHP, Javascript (+ jQuery), HTML, CSS ( + SASS)
 
 ## Screenshots :
