@@ -1,0 +1,472 @@
+html
+  line-height: 1.15
+  -webkit-text-size-adjust: 100%
+  font-family: Roboto, monospace
+
+body
+  margin: 0
+
+main
+  display: block
+
+h1
+  font-size: 2em
+  margin: 0.67em 0
+
+hr
+  box-sizing: content-box
+  height: 0
+  overflow: visible
+
+pre
+  font-family: monospace
+  font-size: 1em
+
+a
+  background-color: transparent
+  text-decoration: none
+  -webkit-user-drag: none
+  color: inherit
+  cursor: pointer
+
+abbr[title]
+  border-bottom: none
+  text-decoration: underline
+
+b,
+strong
+  font-weight: bolder
+
+code,
+kbd,
+samp
+  font-family: monospace
+  font-size: 1em
+
+small
+  font-size: 80%
+
+sub,
+sup
+  font-size: 75%
+  line-height: 0
+  position: relative
+  vertical-align: baseline
+
+sub
+  bottom: -0.25em
+
+sup
+  top: -0.5em
+
+img
+  border-style: none
+
+button,
+input,
+optgroup,
+select,
+textarea
+  font-family: inherit
+  font-size: 100%
+  line-height: 1.15
+  margin: 0
+
+button,
+input
+  overflow: visible
+
+button,
+select
+  text-transform: none
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"]
+  -webkit-appearance: button
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner
+  border-style: none
+  padding: 0
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring
+  outline: 1px dotted ButtonText
+
+fieldset
+  padding: 0.35em 0.75em 0.625em
+
+legend
+  box-sizing: border-box
+  color: inherit
+  display: table
+  max-width: 100%
+  padding: 0
+  white-space: normal
+
+progress
+  vertical-align: baseline
+
+textarea
+  overflow: auto
+
+[type="checkbox"],
+[type="radio"]
+  box-sizing: border-box
+  padding: 0
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button
+  height: auto
+
+[type="search"]
+  -webkit-appearance: textfield
+  outline-offset: -2px
+
+[type="search"]::-webkit-search-decoration
+  -webkit-appearance: none
+
+::-webkit-file-upload-button
+  -webkit-appearance: button
+  font: inherit
+
+details
+  display: block
+
+summary
+  display: list-item
+
+template
+  display: none
+
+[hidden]
+  display: none
+
+
+// END OF CSS NORMALIZER
+
+//*margin
+//  outline: red solid 1px
+
+//$mainColor: #8c1c13
+//$secondaryColor: #bf4342
+//$thirdColor: #e7d7c1
+//$fourthColor: #a78a7f
+//$fifthColor: #735751
+$mainColor: #b31750
+$secondaryColor: #c34670
+$thirdColor: #e35d8e
+$fourthColor: #d9a0b5
+$fifthColor: #d9bfc8
+$test: #b31750
+
+$desktopWidth: 1200px
+
+nav
+  background-color: $mainColor
+
+nav a
+  color: white
+  font-weight: bold
+  font-size: 20px
+
+nav a:hover
+  color: darken(white, 10%)
+
+p
+  user-select: none
+
+label
+  font-size: 22px
+
+.card
+  display: none
+  background-color: $thirdColor
+  border-radius: 10px
+
+.bg-color-third
+  background-color: $secondaryColor
+
+.container
+  width: 100%
+
+
+.content
+  width: $desktopWidth
+
+.f-column
+  display: flex
+  flex-direction: column
+
+.f-row
+  display: flex
+  flex-direction: row
+
+.f-wrap
+  flex-wrap: wrap
+
+.hidden
+  display: none
+
+.f-jc-Center
+  justify-content: center
+
+.f-jc-Between
+  justify-content: space-between
+
+.f-jcEnd
+  justify-content: flex-end
+
+.f-jc-Even
+  justify-content: space-evenly
+
+.f-ai-Center
+  align-items: center
+
+.ta-center
+  text-align: center
+
+.overflow-y
+  overflow-y: scroll
+
+.my-auto
+  margin: 0 auto
+
+.m-10
+  margin: 10px
+
+.m-20
+  margin: 20px
+
+.m-t-25
+  margin-top: 25px
+
+.m-t-50
+  margin-top: 50px
+
+.m-b-25
+  margin-bottom: 25px
+
+.m-b-50
+  margin-bottom: 50px
+
+.m-b-200
+  margin-bottom: 200px
+
+.m-t-tenth
+  margin-top: 10%
+
+.p-10
+  padding: 10px
+
+.w-auto
+  width: auto
+
+.w-half
+  width: 35%
+
+.w-full
+  width: 100%
+
+.w-750
+  width: 750px
+
+.w-500
+  width: 500px
+
+.w-250
+  width: 250px
+
+.w-200
+  width: 200px
+
+.w-150
+  width: 150px
+
+.w-100
+  width: 100px
+
+.h-50
+  height: 50px
+
+.h-75
+  height: 75px
+
+.h-100
+  height: 100px
+
+.h-200
+  height: 200px
+
+.h-500
+  height: 500px
+
+.b-r-10
+  border-radius: 10px
+
+.text-primary
+  color: $mainColor
+
+.text-secondary
+  color: $secondaryColor
+
+.text-third
+  color: $thirdColor
+
+.text-fourth
+  color: $fourthColor
+
+.text-fifth
+  color: $fifthColor
+
+.text-white
+  color: white
+
+.carouselImg
+  border-radius: 10px
+
+.btn
+  border: none
+  padding: 10px 16px
+  text-align: center
+  cursor: pointer
+  text-decoration: none
+  transition: ease 0.5s
+  border-radius: 4px
+  font-weight: bold
+  font-size: 20px
+
+.btn:hover
+  background-color: darken($mainColor, 15%)
+  color: white
+
+.btn-primary
+  background-color: $mainColor
+  color: white
+
+.input-group-text
+  border: 1px solid $fifthColor
+  border-radius: 4px
+  padding: 1em 0.5em
+  height: 60px
+
+.input-group-text:focus .input-group-select .input-group-date
+  outline: none
+
+.input-group-select
+  border: 1px solid $fifthColor
+  background-color: white
+  border-radius: 4px
+  padding: 1em 0.5em
+  height: 60px
+
+.input-group-date
+  border: 1px solid $fifthColor
+  border-radius: 4px
+  padding: 1em 0.5rem
+  height: 60px
+
+.input-group-checkbox
+  display: block
+  position: relative
+  padding-left: 35px
+  margin-bottom: 12px
+  cursor: pointer
+  font-size: 22px
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+  input
+    position: absolute
+    opacity: 0
+    cursor: pointer
+    height: 0
+    width: 0
+    transition: 0.1s
+
+    &:checked
+      & ~ .checkmark
+        background-color: $mainColor
+
+        &:after
+          display: block
+
+  &:hover
+    input
+      & ~ .checkmark
+        background-color: $fifthColor
+
+  .checkmark
+    &:after
+      left: 9px
+      top: 5px
+      width: 5px
+      height: 10px
+      border: solid white
+      border-width: 0 3px 3px 0
+      -ms-transform: rotate(45deg)
+      transform: rotate(45deg)
+
+.checkmark
+  position: absolute
+  top: 0
+  left: 0
+  height: 25px
+  width: 25px
+  background-color: $fourthColor
+
+  &:after
+    content: ""
+    position: absolute
+    display: none
+
+.error
+  display: none
+  color: darkred
+
+.bg
+  animation: slide 3s ease-in-out infinite alternate
+  background-image: linear-gradient(-60deg, $fourthColor 50%, white 50%)
+  bottom: 0
+  left: -50%
+  opacity: .5
+  position: fixed
+  right: -50%
+  top: 0
+  z-index: -1
+
+.bg2
+  animation-direction: alternate-reverse
+  animation-duration: 4s
+
+.bg3
+  animation-duration: 5s
+
+.bg-img
+  background-size: cover
+  background-image: url("../my_meetic/assets/newBg.jpg")
+
+.welcome
+  margin-top: 40vh
+  background-color: white
+  border: 2px solid $thirdColor
+  border-radius: 10px
+  padding: 5px 25px
+
+  h1
+    font-size: 50px
+    text-align: center
+
+@keyframes slide
+  0%
+    transform: translateX(-25%)
+  100%
+    transform: translateX(25%)
